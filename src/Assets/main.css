@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.show-button{
+  transition:all 0.4s ;
+}
+.wrapper:hover > .show-button{
+  transform: translateY(0);
+}
+.accses{
+  background-image: url("./Images/acces.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.accses-text{
+  font-size: 35px;
+  color: rgb(27, 13, 138);
+}
